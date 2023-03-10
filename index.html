@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/crud.css">
+    <title>crud</title>
+</head>
+
+<body>
+    <!-- tag-->
+    <div class="ta" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+        <h1> <span id="form">Form</span> <span id="for">For</span> <span id="holi">Holi</span> <span
+                id="fes">Festival</span></h1>
+    </div>
+<!--table-->
+    <div align="center" style="margin:50px; box-shadow: white; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" class="box" >
+        <table>
+
+            <tr>
+                <td> <label for="fname" id="holi">Name:</label> </td>
+                <td> <input type="text" id="p1" name="fname" required></td>
+            </tr>
+            <tr>
+                <td> <label for="email" id="form">Email:</label></td>
+                <td><input type="email" id="p2" name="email"required></td>
+            </tr>
+            <tr>
+                <td> <label for="phone" id="fes">Phone number:</label></td>
+                <td><input type="number" id="p3" name="phone"required></td>
+            </tr>
+            <tr>
+                <td><label for="birth" id="for">Birthdate:</label></td>
+                <td><input type="date" id="p4" name="birth"required></td>
+            </tr>
+            <tr>
+                <td> <label for="appointment" id="form">Appointment:</label></td>
+                <td> <input type="time" id="p5" name="appointment"required></td>
+            </tr>
+            <tr>
+                <td> <label for="color" id="fes">Choose a car:</label></td>
+                <td>
+
+                    <select name="color" id="color" >
+                        <option value="Black" id="p6"required>Black</option>
+                        <option value="white" id="p6"required>white</option>
+                        <option value="Blue" id="p6"required>Blue</option>
+                        <option value="Pink"id="p6"required>Pink</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td> <label for="pay" id="form">Payment method:</label></td>
+                <td> <input type="radio" name="group2" id="p7"required>cash</input>
+                    <input type="radio" name="group2" id="p7"required>card</input>
+                    <input type="radio" name="group2" id="p7"required>upi</input></td>
+            </tr>
+            <tr>
+                <td> <label for="age" id="for">Age:</label></td>
+                <td> <input type="range" id="p8" name="age" min="5" max="60" required></td>
+            </tr>
+            <tr>
+                <td><label for="check" id="fes">role</label></td>
+                <td> <input type="checkbox" id="p9" name="check"required> <label for=" check">student </label>
+                    <input type="checkbox" id="p9" name="check"required> <label for=" check">teacher </label> </td>
+            </tr>
+            <tr>
+                <td> <label for="img" id="holi">Select image:</label></td>
+                <td><input type="file" id="img" name="img" accept="image/*" required></td>
+            </tr>
+              <tr><td><input type="submit" onclick="sub()" style="background-color: aliceblue;  border: 3px solid yellow; font-size: x-large; font-weight: 500;padding: 5px;" ></td></tr>
+        </table>
+    </div>
+    <script src="./js/crud.js"></script>
+</body>
+</html>

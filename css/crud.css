@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(../img/back.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.ta{
+    font-size: xx-large;
+    font-weight: 900;
+    display: flex;
+    justify-content: center ;
+}
+#form{
+    color: yellow;
+}
+#holi{
+    color: darkmagenta;
+}   
+#for{
+    color: aqua;
+}
+#fes{
+    color: chartreuse;
+}
+
+ table{
+    border: solid black 1px;
+    color: white;
+    border-color: white;
+    padding: 10px;
+    border-collapse: collapse;
+    border-style: hidden;
+    
+ }
+ tr{
+    padding:20px;
+   
+
+ }
+ td{
+padding: 20px;
+
+ }
+
+ table{
+    box-shadow: linear-gradient(white);
+ }
+table label{
+    font-size: larger;
+    font-weight: 900;
+}
+.box{
+    height: 700px;
+    width: 95%;
+    box-shadow: chartreuse;
+}
